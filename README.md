@@ -7,10 +7,13 @@ This project is a Machine Learning approach to predict NFL Game Attendance using
 ## Data Sources:
 - [(Stadium Capacity Data)](https://en.wikipedia.org/wiki/List_of_current_NFL_stadiums) 
 - [(Team Abbreviation Data for Joins)](https://en.wikipedia.org/wiki/Wikipedia:WikiProject_National_Football_League/National_Football_League_team_abbreviations) 
-- [**(Attendance Data for Model Training/Testing)**](https://www.pro-football-reference.com/years/2023/attendance.htm) 
-- [**(Schedule Matrix to Remove Away Game Attendance Values)**](https://www.espn.com/nfl/schedulegrid/_/year/2023) 
-- [**(Weekly Matchup Data to Extract Team Records)**](https://www.espn.com/nfl/scoreboard/_/week/1/year/2023/seasontype/2) 
-- [**(Primetime Game Data for Time of Game Variable)** (Monday and Thursday as well)](https://www.nfl.com/schedules/sunday-night-football/2023) 
+- [(Attendance Data for Model Training/Testing)](https://www.pro-football-reference.com/years/2023/attendance.htm) 
+- [(Schedule Matrix to Remove Away Game Attendance Values)](https://www.espn.com/nfl/schedulegrid/_/year/2023) 
+- [(Weekly Matchup Data to Extract Team Records)](https://www.espn.com/nfl/scoreboard/_/week/1/year/2023/seasontype/2) 
+- [(Sunday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/sunday-night-football/2023)
+- [(Monday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/monday-night-football/2023) 
+- [(Thursday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/thursday-night-football/2023) 
+
 
 Variable to be Predicted: Game Attendance / Maximum Capacity
 - I chose to predict percent capacity (Ex: 95%) instead of the attendance (Ex: 50,000) because all stadiums have different maximum capacities.
