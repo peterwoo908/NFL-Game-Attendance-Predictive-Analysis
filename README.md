@@ -15,9 +15,6 @@ This project is a Machine Learning approach to predict NFL Game Attendance using
 - [(Thursday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/thursday-night-football/2023) 
 
 
-Variable to be Predicted: Game Attendance / Maximum Capacity
-- I chose to predict percent capacity (Ex: 95%) instead of the attendance (Ex: 50,000) because all stadiums have different maximum capacities.
-
 **3 Algorithms were implemented:**
 1. Multiple Linear Regression
 2. Decision Tree Regression
