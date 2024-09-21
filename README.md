@@ -15,10 +15,12 @@ This project is a Machine Learning approach to predict NFL Game Attendance using
 - [(Thursday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/thursday-night-football/2023) 
 
 
-**3 Algorithms were implemented:**
-1. Multiple Linear Regression
+**4 Algorithms were implemented:**
+Rankings of Model Performance:
+1. XGBoost
 2. Decision Tree Regression
 3. Random Forest Regression
+4. Multiple Linear Regression
 
 I plan on continously improving the model and its inputs to achieve greater prediction accuracy. Stay tuned...
 
