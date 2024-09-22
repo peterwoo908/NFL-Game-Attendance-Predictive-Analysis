@@ -14,6 +14,9 @@ This project is a Machine Learning approach to predict NFL Game Attendance using
 - [(Monday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/monday-night-football/2023) 
 - [(Thursday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/thursday-night-football/2023) 
 
+## Live Demo
+You can view the live Streamlit app [here](https://your-streamlit-app-url).
+
 
 **4 Algorithms were implemented:**
 Rankings of Model Performance:
