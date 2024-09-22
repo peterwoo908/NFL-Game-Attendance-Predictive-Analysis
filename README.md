@@ -15,17 +15,16 @@ This project is a Machine Learning approach to predict NFL Game Attendance using
 - [(Thursday Night Football Game Data for Time of Game Variable)](https://www.nfl.com/schedules/thursday-night-football/2023) 
 
 ## Live Demo
-You can view the live Streamlit app [here](https://your-streamlit-app-url).
+You can view the live Streamlit app [here]([https://your-streamlit-app-url](https://nfl-game-attendance-predictor.streamlit.app/)).
 
+## Algorithms
 
 **4 Algorithms were implemented:**
 Rankings of Model Performance:
-1. XGBoost
+1. XGBoost ($R^2$
 2. Decision Tree Regression
 3. Random Forest Regression
 4. Multiple Linear Regression
-
-I plan on continously improving the model and its inputs to achieve greater prediction accuracy. Stay tuned...
 
 Python Libraries Used:
 - Beautiful Soup
