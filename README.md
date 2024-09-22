@@ -5,7 +5,7 @@ The NFL is monetarily driven by those who consume the product. For each of the 3
 This project is a Machine Learning approach to predict NFL Game Attendance using past attendance data (2013-2023). It was an idea I came up with to combine my love for sports along with my sports business acumen. This model can be used as a tool to predict Attendance of a future NFL Game, given a handful of known variables. A large majority of this project involved scraping the necessary data as well as formatting it to be fed into a machine learning algorithm. I scraped and manipulated data from the following:
 
 ## Live Demo
-You can view the live Streamlit app [here]([https://your-streamlit-app-url](https://nfl-game-attendance-predictor.streamlit.app/)).
+You can view the live Streamlit app [here](https://nfl-game-attendance-predictor.streamlit.app/).
 
 ## Algorithms
 
