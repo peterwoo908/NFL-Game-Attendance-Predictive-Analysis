@@ -21,10 +21,10 @@ You can view the live Streamlit app [here]([https://your-streamlit-app-url](http
 
 **4 Algorithms were implemented:**
 Rankings of Model Performance:
-1. XGBoost ($R^2$
-2. Decision Tree Regression
-3. Random Forest Regression
-4. Multiple Linear Regression
+1. XGBoost ($R^2$ = 0.816, RMSE = 3067)
+2. Decision Tree Regression ($R^2$ = 0.799, RMSE = 3204)
+3. Random Forest Regression ($R^2$ = 0.80, RMSE = 4465)
+4. Multiple Linear Regression ($R^2$ = 0.65, RMSE = 4200)
 
 Python Libraries Used:
 - Beautiful Soup
