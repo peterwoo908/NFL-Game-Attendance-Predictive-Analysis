@@ -7,6 +7,20 @@ This project is a Machine Learning approach to predict NFL Game Attendance using
 ## Live Demo Web Application
 You can view the live Streamlit app [here](https://nfl-game-attendance-predictor.streamlit.app/).
 
+## Variables
+
+Outcome Variable: Attendance
+
+Predictor Variables:
+| Variable Name  | Type          | Description                             |
+| -------------- |:-------------:| ----------------------------------------|
+| Capacity       | Integer       | Maximum Capacity of Home Team's Stadium |
+| Week           | Integer       | Week number of Game (Range = (1,18)     |
+| Away Team Wins | Integer       | Away Team Number of Wins prior to game  |
+| Home Team Wins | Integer       | Home Team Number of Wins prior to game  |
+| Time           | Categorical   | Time of Game (1 = Sunday Day, 2 = Sunday Night, 3 = Monday Night, 4 = Thursday Night, 5 = Holiday) |
+| International  | Binary        | 1 if game is played outside of USA, 0 if game is played in USA |
+
 ## Algorithms
 
 **4 Algorithms were implemented:**
