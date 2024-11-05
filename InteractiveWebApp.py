@@ -47,8 +47,16 @@ st.markdown("""
             flex-direction: row;  /* Stack items vertically */
         }
         .header-title {
-            font-size: 3em;  /* Increase the size as needed */
+            font-size: 2.8em;  /* Increase the size as needed */
             margin: 0;
+        }
+        .header-subtitle {
+            font-size: 1.75em;
+            font-style: italic;
+            color: #f8f8f8; /* Softer gray for the subtitle */
+            text-decoration: underline;
+            margin-bottom: 10px;
+            line-height: 1.1;
         }
         .header-image {
             max-height: 120px;  /* Adjust the height as needed */
@@ -59,7 +67,10 @@ st.markdown("""
 # Add the title and images
 st.markdown(f"""
     <div class="header-container">
-        <h1 class="header-title">NFL Game Attendance Predictor</h1>
+        <div>
+            <h1 class="header-title">NFL Attendance Predictor</h1>
+            <h2 class="header-subtitle">By: Peter Woo</h2>
+        </div>
         <img class="header-image" src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a2/National_Football_League_logo.svg/800px-National_Football_League_logo.svg.png" alt="NFL Logo"/>  
     </div>
 """, unsafe_allow_html=True)
@@ -72,8 +83,10 @@ team_selected = st.selectbox("Select the Home Team", list(nfl_teams.keys()))
 capacity = nfl_teams[team_selected]
 
 week = st.slider("Week", 1, 18, 1)
-away_wins = st.number_input("Away Team Wins", min_value=0, max_value=17, value=0)
-home_wins = st.number_input("Home Team Wins", min_value=0, max_value=17, value=0)
+
+max_wins = week - 1
+away_wins = st.number_input("Away Team Wins", min_value=0, max_value=max_wins, value=0)
+home_wins = st.number_input("Home Team Wins", min_value=0, max_value=max_wins, value=0)
 
 international = st.selectbox("Is this an International Game?", ("No", "Yes"))
 if international == "Yes":
