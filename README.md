@@ -4,7 +4,7 @@
 You can view the live Streamlit app [here](https://nfl-game-attendance-predictor.streamlit.app/).
 
 ## **Business Problems Solved**:
-1. What variables affect attendance the most?
+1. <u>What variables affect attendance the most?</u>
 - The number of wins the home team has going into a game is the most influential variable in the model. For every additional win a team has going into a game, the team can expect an additional 566 fans in attendance at a game.
 - Time of Game: Holiday games experience the greatest attendance, followed by Monday Night games
 
