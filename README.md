@@ -8,12 +8,12 @@ You can view the live Streamlit app [here](https://nfl-game-attendance-predictor
 - The number of wins the home team has going into a game is the most influential variable in the model. For every additional win a team has going into a game, the team can expect an additional 566 fans in attendance at a game.
 - Time of Game: Holiday games experience the greatest attendance, followed by Monday Night games
 
-2. **How can an NFL team adequately prepare for gameday operations**
+### 2. **How can an NFL team adequately prepare for gameday operations**
 - NFL teams can use this tool to conduct business intelligence reporting. 
 - If an NFL team uses this tool and observes a low attendance number, the team can be proactive and offer promotions to entice fans to come to the game.
 - On the other hand, a high fan attendance estimate can call for extra preparation to ensure fluid stadium operations
 
-3. **What steps can an NFL team take if they receive a low estimate?**
+### 3. **What steps can an NFL team take if they receive a low estimate?**
 - A team can advertise discounts (Dollar Hot Dogs, Giveaways, or Discounted Beer) days before a game in order to avoid lost concession gains from low fan turnout.
 
 ## **Abstract**:
