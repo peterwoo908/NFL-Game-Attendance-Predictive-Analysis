@@ -25,7 +25,7 @@ nfl_teams = {
     "New England Patriots": 66829, "New Orleans Saints": 73208, "New York Giants": 82500,
     "New York Jets": 82500, "Philadelphia Eagles": 69596, "Pittsburgh Steelers": 68400,
     "San Francisco 49ers": 68500, "Seattle Seahawks": 69000, "Tampa Bay Buccaneers": 69218,
-    "Tennessee Titans": 69143, "Washington Football Team": 65000
+    "Tennessee Titans": 69143, "Washington Commanders": 65000
 }
 
 # Define international stadium capacities
@@ -128,5 +128,9 @@ if st.button("Predict"):
     selected_model = models[model_name]
     prediction = selected_model.predict(input_data)
 
+    # Calculate Percent Capacity
+    percent_capacity = (prediction[0] / capacity) * 100
+
     # Display the prediction
     st.write(f"### Predicted Attendance: {int(prediction[0]):,}")
+    st.write(f"### Percent Capacity: {percent_capacity:.2f}%")
